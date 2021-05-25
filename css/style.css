@@ -8,6 +8,11 @@
 /* generics */
 
 body{
+    background-color: #F6F8F9;
+}
+
+/* header */
+header{
     background-color: #fff;
 }
 h1{
@@ -16,13 +21,20 @@ h1{
 
 /* main */
 
-main{
-    background-color: #F6F8F9;
-}
 
 .frame{
     background-color: #fff;
     width: 75%;
     margin: 20px auto;
 }
-
+.buttons{
+    border: 1 solid #47ADF1;
+    border-radius: 5px;
+}
+#task-btn{
+    background-color: #47ADF1;
+    color: #fff;
+}
+#section-btn{
+    color: #F6F8F9;
+}
