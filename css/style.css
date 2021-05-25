@@ -9,6 +9,7 @@
 
 body{
     background-color: #F6F8F9;
+    font-family: Arial, sans-serif;
 }
 
 /* header */
@@ -21,7 +22,7 @@ header{
     vertical-align: middle;
 }
 h1{
-    font-family: Arial, sans-serif;
+    
     font-weight: 800;
     display: inline-block;
     vertical-align: middle;
@@ -46,16 +47,20 @@ ul{
     width: 100%;
 }
 .buttons{
-    border: 1 solid #47ADF1;
+    border: none;
     border-radius: 5px;
     padding: 5px;
 }
-#task-btn{
+.blue{
     background-color: #47ADF1;
     color: #fff;
+    border: 1px solid #47ADF1;
 }
-#section-btn{
-    color: #F6F8F9;
+
+.light-gray{
+    color: #afb0b1;
+    background-color: #fff;
+    border: 1px solid #afb0b1;
 }
 
 .task-sect{
@@ -72,11 +77,15 @@ li{
     border-radius: 50%;
     border: 1px solid green;
     color: green;
+    margin: 5px;
+    padding: 1px;
 }
 .crossed{
     border-radius: 50%;
     border: 1px solid red;
     color: red;
+    margin: 5px;
+    padding:1px;
 }
 .label{
     font-size: 8px;
