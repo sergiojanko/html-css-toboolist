@@ -7,6 +7,22 @@
 
 /* generics */
 
+body{
+    background-color: #fff;
+}
 h1{
     display: inline-block;
 }
+
+/* main */
+
+main{
+    background-color: #F6F8F9;
+}
+
+.frame{
+    background-color: #fff;
+    width: 75%;
+    margin: 20px auto;
+}
+
