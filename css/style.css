@@ -21,9 +21,14 @@ header{
     vertical-align: middle;
 }
 h1{
+    font-family: Arial, sans-serif;
+    font-weight: 800;
     display: inline-block;
     vertical-align: middle;
     line-height: 100%;
+}
+ul{
+    list-style-type: none;
 }
 
 /* main */
@@ -34,6 +39,11 @@ h1{
     width: 75%;
     margin: 20px auto;
     padding: 20px;
+    border-radius: 5px;
+}
+.buttons-frame{
+    border-bottom: 2px solid #F6F8F9;
+    width: 100%;
 }
 .buttons{
     border: 1 solid #47ADF1;
@@ -51,4 +61,28 @@ h1{
 .task-sect{
     padding: 20px;
     line-height: 30x;
+    height: 100%;
+}
+
+/* list */
+li{
+    padding: 5px;
+}
+.checked{
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+}
+.crossed{
+    border-radius: 50%;
+    border: 1px solid red;
+    color: red;
+}
+.label{
+    font-size: 8px;
+    color: #fff;
+    border-radius: 30%;
+    background-color: blue;
+    padding: 2px;
+
 }
